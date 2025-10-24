@@ -1,0 +1,47 @@
+name: foodie
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+    sdk: ^3.8.1
+
+dependencies:
+    flutter:
+        sdk: flutter
+
+    # 🧭 Cupertino icons
+    cupertino_icons: ^1.0.8
+
+    # 🌍 HTTP for future backend integration
+    http: ^1.2.2
+
+    # 🗺 Google Maps support
+    google_maps_flutter: ^2.5.0
+
+    # 💾 Local storage for favorites/theme settings
+    shared_preferences: ^2.3.2
+
+    # 🎨 State management (optional for theme + UI updates)
+    provider: ^6.1.2
+
+    # 🔔 Toast notifications
+    fluttertoast: ^8.2.1
+
+    # 🌐 Open external links (social media)
+    url_launcher: ^6.2.10
+
+dev_dependencies:
+    flutter_test:
+        sdk: flutter
+    flutter_lints: ^5.0.0
+
+flutter:
+    uses-material-design: true
+
+    assets:
+        - assets/images/pizza.jpeg
+        - assets/images/burger.jpeg
+        - assets/images/sushi.jpeg
+        - assets/images/kaka.webp
